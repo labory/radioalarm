@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.carcasser.radioalarm</groupId>
     <artifactId>radioalarm</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.1-SNAPSHOT</version>
     <distributionManagement>
         <snapshotRepository>
             <id>snapshots</id>
@@ -18,8 +20,7 @@
         <connection>scm:git:https://github.com/labory/radioalarm.git</connection>
         <url>scm:git:https://github.com/labory/radioalarm.git</url>
         <developerConnection>scm:git:https://github.com/labory/radioalarm.git</developerConnection>
-      <tag>v0.0.1</tag>
-  </scm>
+    </scm>
     <build>
         <plugins>
             <plugin>
